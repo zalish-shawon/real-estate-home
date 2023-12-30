@@ -1,9 +1,11 @@
-import React from 'react';
+import NavHeader from './Navbar/NavHeader';
+import Navbar from './Navbar/Navbar';
 
 const Home = () => {
     return (
         <div>
-            <h1>This is home</h1>
+            <NavHeader></NavHeader>
+            <Navbar></Navbar>
         </div>
     );
 };
