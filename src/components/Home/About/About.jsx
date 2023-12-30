@@ -1,8 +1,10 @@
 /* eslint-disable react/no-unknown-property */
 import img from '../../../assets/Rectangle.png'
+import Services from '../Services/Services';
 const About = () => {
     return (
-        <div className="max-w-[85%] mx-auto mt-20 flex justify-between items-center gap-5">
+        <div>
+            <div className="max-w-[85%] mx-auto mt-20 flex justify-between items-center gap-5">
             {/* left section */}
             <div className="relative flex-1">
                 <svg xmlns="http://www.w3.org/2000/svg" width="473" height="812" viewBox="0 0 473 812" fill="none">
@@ -650,6 +652,8 @@ const About = () => {
                     </div>
                 </div>
             </div>
+        </div>
+        
         </div>
     );
 };
