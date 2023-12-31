@@ -1,4 +1,5 @@
 import About from './About/About';
+import Agents from './Agents/Agents';
 import Category from './Category/Category';
 import Choose from './Choose/Choose';
 import Footer from './Footer/Footer';
@@ -19,6 +20,7 @@ const Home = () => {
             <Services></Services>
             <Choose></Choose>
             <Property></Property>
+            <Agents></Agents>
             <Footer></Footer>
         </div>
     );
