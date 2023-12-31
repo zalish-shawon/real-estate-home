@@ -4,6 +4,7 @@ import Choose from './Choose/Choose';
 import Hero from './Hero/Hero';
 import NavHeader from './Navbar/NavHeader';
 import Navbar from './Navbar/Navbar';
+import Property from './Property/Property';
 import Services from './Services/Services';
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
             <About></About>
             <Services></Services>
             <Choose></Choose>
+            <Property></Property>
         </div>
     );
 };
