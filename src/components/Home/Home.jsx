@@ -1,6 +1,7 @@
 import About from './About/About';
 import Category from './Category/Category';
 import Choose from './Choose/Choose';
+import Footer from './Footer/Footer';
 import Hero from './Hero/Hero';
 import NavHeader from './Navbar/NavHeader';
 import Navbar from './Navbar/Navbar';
@@ -18,6 +19,7 @@ const Home = () => {
             <Services></Services>
             <Choose></Choose>
             <Property></Property>
+            <Footer></Footer>
         </div>
     );
 };
