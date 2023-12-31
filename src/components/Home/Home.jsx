@@ -1,5 +1,6 @@
 import About from './About/About';
 import Category from './Category/Category';
+import Choose from './Choose/Choose';
 import Hero from './Hero/Hero';
 import NavHeader from './Navbar/NavHeader';
 import Navbar from './Navbar/Navbar';
@@ -14,6 +15,7 @@ const Home = () => {
             <Category></Category>
             <About></About>
             <Services></Services>
+            <Choose></Choose>
         </div>
     );
 };
