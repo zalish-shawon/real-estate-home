@@ -24,8 +24,9 @@ const Property = () => {
                 </div>
             </div>
             {/* Property Cards */}
-            <div className="grid grid-cols-3 gap-y-10">
-                <div className="w-[420px]">
+            <div data-aos="zoom-in" data-aos-duration="3000" className="grid grid-cols-3 gap-y-10">
+                
+                <div className="w-[420px] group transition-all duration-300 ease-in-out hover:bg-blue-500 hover:text-white">
                     <img className="" src={property} alt="" />
                     <div className="flex justify-between mt-2">
                         <h3 className="font-bold text-2xl text-[#FF5017]">Ready Resort for Sell</h3>
@@ -34,34 +35,33 @@ const Property = () => {
                         </div>
                     </div>
                     <div>
-                        <p className="text-lg font-semibold mr-5">Duis aute irure dolor in reprehenderit into volupjl
-                            tate velit esse cillum dolore eu fugiat.</p>
+                        <p className="text-lg font-semibold mr-5">Duis aute irure dolor in reprehenderit into volupjl tate velit esse cillum dolore eu fugiat.</p>
                     </div>
-                    <div className=" mt-3 mb-5 h-[2px] w-[380px] bg-slate-700"></div>
-                    <div className=" flex gap-5 items-center">
+                    <div className="mt-3 mb-5 h-[2px] w-[380px] bg-slate-700"></div>
+                    <div className="flex gap-5 items-center">
                         <div className="flex items-center gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
                                 <circle cx="11.4435" cy="11.5901" r="10.7742" fill="#FF5017" />
                                 <path d="M6.24678 7.54834C6.56616 7.54834 6.82419 7.80637 6.82419 8.12575V12.745H10.8661V9.85798C10.8661 9.5386 11.1241 9.28057 11.4435 9.28057H15.4854C16.4417 9.28057 17.2176 10.0565 17.2176 11.0128V15.0547C17.2176 15.3741 16.9596 15.6321 16.6402 15.6321C16.3208 15.6321 16.0628 15.3741 16.0628 15.0547V14.4773H12.0209H11.4435H6.82419V15.0547C6.82419 15.3741 6.56616 15.6321 6.24678 15.6321C5.9274 15.6321 5.66937 15.3741 5.66937 15.0547V8.12575C5.66937 7.80637 5.9274 7.54834 6.24678 7.54834ZM8.84513 12.1676C8.04758 12.1676 7.40161 11.5216 7.40161 10.7241C7.40161 9.92655 8.04758 9.28057 8.84513 9.28057C9.64268 9.28057 10.2887 9.92655 10.2887 10.7241C10.2887 11.5216 9.64268 12.1676 8.84513 12.1676Z" fill="#F8FAFA" />
                             </svg>
-                            <p className="text-lg font-semibold">Beds : Na</p>
+                            <p className="text-lg font-semibold">Beds: Na</p>
                         </div>
                         <div className="flex items-center gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
                                 <circle cx="11.7445" cy="11.5901" r="10.7742" fill="#FF5017" />
                                 <path d="M9.21825 8.76883C9.21825 8.65357 9.3114 8.55884 9.42824 8.55884C9.4835 8.55884 9.53718 8.58094 9.57666 8.62042L9.81191 8.85567C9.75507 8.99777 9.7235 9.15408 9.7235 9.31671C9.7235 9.63091 9.83718 9.91669 10.0266 10.1377C9.94296 10.283 9.96349 10.4709 10.0866 10.5956C10.2351 10.744 10.4751 10.744 10.6219 10.5956L12.2655 8.95356C12.4139 8.80515 12.4139 8.56515 12.2655 8.41832C12.1408 8.29358 11.9529 8.27464 11.8076 8.35832C11.5866 8.16727 11.3008 8.05359 10.9866 8.05359C10.824 8.05359 10.6677 8.08517 10.5256 8.14043L10.2903 7.90517C10.0614 7.67623 9.75034 7.54834 9.42824 7.54834C8.75405 7.54834 8.20775 8.09464 8.20775 8.76883V11.5903C7.92828 11.5903 7.7025 11.8161 7.7025 12.0956C7.7025 12.375 7.92828 12.6008 8.20775 12.6008H15.2812C15.5607 12.6008 15.7865 12.375 15.7865 12.0956C15.7865 11.8161 15.5607 11.5903 15.2812 11.5903H9.21825V8.76883ZM8.20775 13.1061V13.3587C8.20775 13.8071 8.40353 14.2113 8.713 14.4892V15.1271C8.713 15.4065 8.93878 15.6323 9.21825 15.6323C9.49771 15.6323 9.7235 15.4065 9.7235 15.1271V14.8745H13.7655V15.1271C13.7655 15.4065 13.9913 15.6323 14.2707 15.6323C14.5502 15.6323 14.776 15.4065 14.776 15.1271V14.4892C15.0855 14.2113 15.2812 13.8087 15.2812 13.3587V13.1061H8.20775Z" fill="#F8FAFA" />
                             </svg>
-                            <p className="text-lg font-semibold">Baths : 2</p>
+                            <p className="text-lg font-semibold">Baths: 2</p>
                         </div>
                         <div className="flex items-center gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="23" viewBox="0 0 22 23" fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="23" viewBox="0 0 22 23" fill="none">
                                 <ellipse cx="10.85" cy="11.6018" rx="10.4892" ry="10.7742" fill="#FF5017" />
                                 <path d="M9.24571 8.65967H12.4543C12.6951 8.65967 12.9094 8.81609 12.9891 9.0489L13.4512 10.4058H8.24878L8.71094 9.0489C8.79063 8.81609 9.00489 8.65967 9.24571 8.65967ZM7.64141 8.66512L7.01811 10.4931C6.6073 10.6677 6.31689 11.0842 6.31689 11.5698V13.0249C6.31689 13.456 6.54532 13.8325 6.88353 14.0325V15.062C6.88353 15.3839 7.13675 15.644 7.45017 15.644H8.01681C8.33023 15.644 8.58345 15.3839 8.58345 15.062V14.189H13.1166V15.062C13.1166 15.3839 13.3698 15.644 13.6832 15.644H14.2498C14.5633 15.644 14.8165 15.3839 14.8165 15.062V14.0325C15.1547 13.8307 15.3831 13.456 15.3831 13.0249V11.5698C15.3831 11.0842 15.0927 10.6677 14.6819 10.4931L14.0586 8.66512C13.8195 7.96487 13.1768 7.49561 12.4543 7.49561H9.24571C8.52324 7.49561 7.88046 7.96487 7.64141 8.66512ZM10 11.8608H11.7C11.8558 11.8608 11.9833 11.9918 11.9833 12.1519V12.7339C11.9833 12.8939 11.8558 13.0249 11.7 13.0249H10C9.84422 13.0249 9.71672 12.8939 9.71672 12.7339V12.1519C9.71672 11.9918 9.84422 11.8608 10 11.8608ZM7.16685 12.0063C7.16685 11.7644 7.35632 11.5698 7.59183 11.5698H8.15847C8.39398 11.5698 8.58345 11.7644 8.58345 12.0063C8.58345 12.2483 8.39398 12.4429 8.15847 12.4429H7.59183C7.35632 12.4429 7.16685 12.2483 7.16685 12.0063ZM13.5415 11.5698H14.1082C14.3437 11.5698 14.5332 11.7644 14.5332 12.0063C14.5332 12.2483 14.3437 12.4429 14.1082 12.4429H13.5415C13.306 12.4429 13.1166 12.2483 13.1166 12.0063C13.1166 11.7644 13.306 11.5698 13.5415 11.5698Z" fill="#F8FAFA" />
                             </svg>
-                            <p className="text-lg font-semibold">Parking : 1</p>
+                            <p className="text-lg font-semibold">Parking: 1</p>
                         </div>
                     </div>
-                    <div className=" mt-5 mb-5 h-[1px] w-[380px] bg-slate-700"></div>
+                    <div className="mt-5 mb-5 h-[1px] w-[380px] bg-slate-700"></div>
                     <div className="flex justify-between">
                         <p className="text-lg font-semibold text-[#FF5017]">View Details</p>
                         <div className="mr-8">
@@ -72,7 +72,7 @@ const Property = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-[420px]">
+                <div className="w-[420px] group transition-all duration-300 ease-in-out hover:bg-blue-500 hover:text-white">
                     <img className="" src={property2} alt="" />
                     <div className="flex justify-between mt-2">
                         <h3 className="font-bold text-2xl text-[#FF5017]">Office Space</h3>
@@ -81,34 +81,33 @@ const Property = () => {
                         </div>
                     </div>
                     <div>
-                        <p className="text-lg font-semibold mr-5">Duis aute irure dolor in reprehenderit into volupjl
-                            tate velit esse cillum dolore eu fugiat.</p>
+                        <p className="text-lg font-semibold mr-5">Duis aute irure dolor in reprehenderit into volupjl tate velit esse cillum dolore eu fugiat.</p>
                     </div>
-                    <div className=" mt-3 mb-5 h-[2px] w-[380px] bg-slate-700"></div>
-                    <div className=" flex gap-5 items-center">
+                    <div className="mt-3 mb-5 h-[2px] w-[380px] bg-slate-700"></div>
+                    <div className="flex gap-5 items-center">
                         <div className="flex items-center gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
                                 <circle cx="11.4435" cy="11.5901" r="10.7742" fill="#FF5017" />
                                 <path d="M6.24678 7.54834C6.56616 7.54834 6.82419 7.80637 6.82419 8.12575V12.745H10.8661V9.85798C10.8661 9.5386 11.1241 9.28057 11.4435 9.28057H15.4854C16.4417 9.28057 17.2176 10.0565 17.2176 11.0128V15.0547C17.2176 15.3741 16.9596 15.6321 16.6402 15.6321C16.3208 15.6321 16.0628 15.3741 16.0628 15.0547V14.4773H12.0209H11.4435H6.82419V15.0547C6.82419 15.3741 6.56616 15.6321 6.24678 15.6321C5.9274 15.6321 5.66937 15.3741 5.66937 15.0547V8.12575C5.66937 7.80637 5.9274 7.54834 6.24678 7.54834ZM8.84513 12.1676C8.04758 12.1676 7.40161 11.5216 7.40161 10.7241C7.40161 9.92655 8.04758 9.28057 8.84513 9.28057C9.64268 9.28057 10.2887 9.92655 10.2887 10.7241C10.2887 11.5216 9.64268 12.1676 8.84513 12.1676Z" fill="#F8FAFA" />
                             </svg>
-                            <p className="text-lg font-semibold">Beds : Na</p>
+                            <p className="text-lg font-semibold">Beds: Na</p>
                         </div>
                         <div className="flex items-center gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
                                 <circle cx="11.7445" cy="11.5901" r="10.7742" fill="#FF5017" />
                                 <path d="M9.21825 8.76883C9.21825 8.65357 9.3114 8.55884 9.42824 8.55884C9.4835 8.55884 9.53718 8.58094 9.57666 8.62042L9.81191 8.85567C9.75507 8.99777 9.7235 9.15408 9.7235 9.31671C9.7235 9.63091 9.83718 9.91669 10.0266 10.1377C9.94296 10.283 9.96349 10.4709 10.0866 10.5956C10.2351 10.744 10.4751 10.744 10.6219 10.5956L12.2655 8.95356C12.4139 8.80515 12.4139 8.56515 12.2655 8.41832C12.1408 8.29358 11.9529 8.27464 11.8076 8.35832C11.5866 8.16727 11.3008 8.05359 10.9866 8.05359C10.824 8.05359 10.6677 8.08517 10.5256 8.14043L10.2903 7.90517C10.0614 7.67623 9.75034 7.54834 9.42824 7.54834C8.75405 7.54834 8.20775 8.09464 8.20775 8.76883V11.5903C7.92828 11.5903 7.7025 11.8161 7.7025 12.0956C7.7025 12.375 7.92828 12.6008 8.20775 12.6008H15.2812C15.5607 12.6008 15.7865 12.375 15.7865 12.0956C15.7865 11.8161 15.5607 11.5903 15.2812 11.5903H9.21825V8.76883ZM8.20775 13.1061V13.3587C8.20775 13.8071 8.40353 14.2113 8.713 14.4892V15.1271C8.713 15.4065 8.93878 15.6323 9.21825 15.6323C9.49771 15.6323 9.7235 15.4065 9.7235 15.1271V14.8745H13.7655V15.1271C13.7655 15.4065 13.9913 15.6323 14.2707 15.6323C14.5502 15.6323 14.776 15.4065 14.776 15.1271V14.4892C15.0855 14.2113 15.2812 13.8087 15.2812 13.3587V13.1061H8.20775Z" fill="#F8FAFA" />
                             </svg>
-                            <p className="text-lg font-semibold">Baths : 2</p>
+                            <p className="text-lg font-semibold">Baths: 2</p>
                         </div>
                         <div className="flex items-center gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="23" viewBox="0 0 22 23" fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="23" viewBox="0 0 22 23" fill="none">
                                 <ellipse cx="10.85" cy="11.6018" rx="10.4892" ry="10.7742" fill="#FF5017" />
                                 <path d="M9.24571 8.65967H12.4543C12.6951 8.65967 12.9094 8.81609 12.9891 9.0489L13.4512 10.4058H8.24878L8.71094 9.0489C8.79063 8.81609 9.00489 8.65967 9.24571 8.65967ZM7.64141 8.66512L7.01811 10.4931C6.6073 10.6677 6.31689 11.0842 6.31689 11.5698V13.0249C6.31689 13.456 6.54532 13.8325 6.88353 14.0325V15.062C6.88353 15.3839 7.13675 15.644 7.45017 15.644H8.01681C8.33023 15.644 8.58345 15.3839 8.58345 15.062V14.189H13.1166V15.062C13.1166 15.3839 13.3698 15.644 13.6832 15.644H14.2498C14.5633 15.644 14.8165 15.3839 14.8165 15.062V14.0325C15.1547 13.8307 15.3831 13.456 15.3831 13.0249V11.5698C15.3831 11.0842 15.0927 10.6677 14.6819 10.4931L14.0586 8.66512C13.8195 7.96487 13.1768 7.49561 12.4543 7.49561H9.24571C8.52324 7.49561 7.88046 7.96487 7.64141 8.66512ZM10 11.8608H11.7C11.8558 11.8608 11.9833 11.9918 11.9833 12.1519V12.7339C11.9833 12.8939 11.8558 13.0249 11.7 13.0249H10C9.84422 13.0249 9.71672 12.8939 9.71672 12.7339V12.1519C9.71672 11.9918 9.84422 11.8608 10 11.8608ZM7.16685 12.0063C7.16685 11.7644 7.35632 11.5698 7.59183 11.5698H8.15847C8.39398 11.5698 8.58345 11.7644 8.58345 12.0063C8.58345 12.2483 8.39398 12.4429 8.15847 12.4429H7.59183C7.35632 12.4429 7.16685 12.2483 7.16685 12.0063ZM13.5415 11.5698H14.1082C14.3437 11.5698 14.5332 11.7644 14.5332 12.0063C14.5332 12.2483 14.3437 12.4429 14.1082 12.4429H13.5415C13.306 12.4429 13.1166 12.2483 13.1166 12.0063C13.1166 11.7644 13.306 11.5698 13.5415 11.5698Z" fill="#F8FAFA" />
                             </svg>
-                            <p className="text-lg font-semibold">Parking : 1</p>
+                            <p className="text-lg font-semibold">Parking: 1</p>
                         </div>
                     </div>
-                    <div className=" mt-5 mb-5 h-[1px] w-[380px] bg-slate-700"></div>
+                    <div className="mt-5 mb-5 h-[1px] w-[380px] bg-slate-700"></div>
                     <div className="flex justify-between">
                         <p className="text-lg font-semibold text-[#FF5017]">View Details</p>
                         <div className="mr-8">
@@ -119,7 +118,7 @@ const Property = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-[420px]">
+                <div className="w-[420px] group transition-all duration-300 ease-in-out hover:bg-blue-500 hover:text-white">
                     <img className="" src={property3} alt="" />
                     <div className="flex justify-between mt-2">
                         <h3 className="font-bold text-2xl text-[#FF5017]">Luxury Condo</h3>
@@ -128,34 +127,33 @@ const Property = () => {
                         </div>
                     </div>
                     <div>
-                        <p className="text-lg font-semibold mr-5">Duis aute irure dolor in reprehenderit into volupjl
-                            tate velit esse cillum dolore eu fugiat.</p>
+                        <p className="text-lg font-semibold mr-5">Duis aute irure dolor in reprehenderit into volupjl tate velit esse cillum dolore eu fugiat.</p>
                     </div>
-                    <div className=" mt-3 mb-5 h-[2px] w-[380px] bg-slate-700"></div>
-                    <div className=" flex gap-5 items-center">
+                    <div className="mt-3 mb-5 h-[2px] w-[380px] bg-slate-700"></div>
+                    <div className="flex gap-5 items-center">
                         <div className="flex items-center gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
                                 <circle cx="11.4435" cy="11.5901" r="10.7742" fill="#FF5017" />
                                 <path d="M6.24678 7.54834C6.56616 7.54834 6.82419 7.80637 6.82419 8.12575V12.745H10.8661V9.85798C10.8661 9.5386 11.1241 9.28057 11.4435 9.28057H15.4854C16.4417 9.28057 17.2176 10.0565 17.2176 11.0128V15.0547C17.2176 15.3741 16.9596 15.6321 16.6402 15.6321C16.3208 15.6321 16.0628 15.3741 16.0628 15.0547V14.4773H12.0209H11.4435H6.82419V15.0547C6.82419 15.3741 6.56616 15.6321 6.24678 15.6321C5.9274 15.6321 5.66937 15.3741 5.66937 15.0547V8.12575C5.66937 7.80637 5.9274 7.54834 6.24678 7.54834ZM8.84513 12.1676C8.04758 12.1676 7.40161 11.5216 7.40161 10.7241C7.40161 9.92655 8.04758 9.28057 8.84513 9.28057C9.64268 9.28057 10.2887 9.92655 10.2887 10.7241C10.2887 11.5216 9.64268 12.1676 8.84513 12.1676Z" fill="#F8FAFA" />
                             </svg>
-                            <p className="text-lg font-semibold">Beds : Na</p>
+                            <p className="text-lg font-semibold">Beds: Na</p>
                         </div>
                         <div className="flex items-center gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
                                 <circle cx="11.7445" cy="11.5901" r="10.7742" fill="#FF5017" />
                                 <path d="M9.21825 8.76883C9.21825 8.65357 9.3114 8.55884 9.42824 8.55884C9.4835 8.55884 9.53718 8.58094 9.57666 8.62042L9.81191 8.85567C9.75507 8.99777 9.7235 9.15408 9.7235 9.31671C9.7235 9.63091 9.83718 9.91669 10.0266 10.1377C9.94296 10.283 9.96349 10.4709 10.0866 10.5956C10.2351 10.744 10.4751 10.744 10.6219 10.5956L12.2655 8.95356C12.4139 8.80515 12.4139 8.56515 12.2655 8.41832C12.1408 8.29358 11.9529 8.27464 11.8076 8.35832C11.5866 8.16727 11.3008 8.05359 10.9866 8.05359C10.824 8.05359 10.6677 8.08517 10.5256 8.14043L10.2903 7.90517C10.0614 7.67623 9.75034 7.54834 9.42824 7.54834C8.75405 7.54834 8.20775 8.09464 8.20775 8.76883V11.5903C7.92828 11.5903 7.7025 11.8161 7.7025 12.0956C7.7025 12.375 7.92828 12.6008 8.20775 12.6008H15.2812C15.5607 12.6008 15.7865 12.375 15.7865 12.0956C15.7865 11.8161 15.5607 11.5903 15.2812 11.5903H9.21825V8.76883ZM8.20775 13.1061V13.3587C8.20775 13.8071 8.40353 14.2113 8.713 14.4892V15.1271C8.713 15.4065 8.93878 15.6323 9.21825 15.6323C9.49771 15.6323 9.7235 15.4065 9.7235 15.1271V14.8745H13.7655V15.1271C13.7655 15.4065 13.9913 15.6323 14.2707 15.6323C14.5502 15.6323 14.776 15.4065 14.776 15.1271V14.4892C15.0855 14.2113 15.2812 13.8087 15.2812 13.3587V13.1061H8.20775Z" fill="#F8FAFA" />
                             </svg>
-                            <p className="text-lg font-semibold">Baths : 2</p>
+                            <p className="text-lg font-semibold">Baths: 2</p>
                         </div>
                         <div className="flex items-center gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="23" viewBox="0 0 22 23" fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="23" viewBox="0 0 22 23" fill="none">
                                 <ellipse cx="10.85" cy="11.6018" rx="10.4892" ry="10.7742" fill="#FF5017" />
                                 <path d="M9.24571 8.65967H12.4543C12.6951 8.65967 12.9094 8.81609 12.9891 9.0489L13.4512 10.4058H8.24878L8.71094 9.0489C8.79063 8.81609 9.00489 8.65967 9.24571 8.65967ZM7.64141 8.66512L7.01811 10.4931C6.6073 10.6677 6.31689 11.0842 6.31689 11.5698V13.0249C6.31689 13.456 6.54532 13.8325 6.88353 14.0325V15.062C6.88353 15.3839 7.13675 15.644 7.45017 15.644H8.01681C8.33023 15.644 8.58345 15.3839 8.58345 15.062V14.189H13.1166V15.062C13.1166 15.3839 13.3698 15.644 13.6832 15.644H14.2498C14.5633 15.644 14.8165 15.3839 14.8165 15.062V14.0325C15.1547 13.8307 15.3831 13.456 15.3831 13.0249V11.5698C15.3831 11.0842 15.0927 10.6677 14.6819 10.4931L14.0586 8.66512C13.8195 7.96487 13.1768 7.49561 12.4543 7.49561H9.24571C8.52324 7.49561 7.88046 7.96487 7.64141 8.66512ZM10 11.8608H11.7C11.8558 11.8608 11.9833 11.9918 11.9833 12.1519V12.7339C11.9833 12.8939 11.8558 13.0249 11.7 13.0249H10C9.84422 13.0249 9.71672 12.8939 9.71672 12.7339V12.1519C9.71672 11.9918 9.84422 11.8608 10 11.8608ZM7.16685 12.0063C7.16685 11.7644 7.35632 11.5698 7.59183 11.5698H8.15847C8.39398 11.5698 8.58345 11.7644 8.58345 12.0063C8.58345 12.2483 8.39398 12.4429 8.15847 12.4429H7.59183C7.35632 12.4429 7.16685 12.2483 7.16685 12.0063ZM13.5415 11.5698H14.1082C14.3437 11.5698 14.5332 11.7644 14.5332 12.0063C14.5332 12.2483 14.3437 12.4429 14.1082 12.4429H13.5415C13.306 12.4429 13.1166 12.2483 13.1166 12.0063C13.1166 11.7644 13.306 11.5698 13.5415 11.5698Z" fill="#F8FAFA" />
                             </svg>
-                            <p className="text-lg font-semibold">Parking : 1</p>
+                            <p className="text-lg font-semibold">Parking: 1</p>
                         </div>
                     </div>
-                    <div className=" mt-5 mb-5 h-[1px] w-[380px] bg-slate-700"></div>
+                    <div className="mt-5 mb-5 h-[1px] w-[380px] bg-slate-700"></div>
                     <div className="flex justify-between">
                         <p className="text-lg font-semibold text-[#FF5017]">View Details</p>
                         <div className="mr-8">
@@ -166,7 +164,7 @@ const Property = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-[420px]">
+                <div className="w-[420px] group transition-all duration-300 ease-in-out hover:bg-blue-500 hover:text-white">
                     <img className="" src={property4} alt="" />
                     <div className="flex justify-between mt-2">
                         <h3 className="font-bold text-2xl text-[#FF5017]">Modern Villa</h3>
@@ -175,34 +173,33 @@ const Property = () => {
                         </div>
                     </div>
                     <div>
-                        <p className="text-lg font-semibold mr-5">Duis aute irure dolor in reprehenderit into volupjl
-                            tate velit esse cillum dolore eu fugiat.</p>
+                        <p className="text-lg font-semibold mr-5">Duis aute irure dolor in reprehenderit into volupjl tate velit esse cillum dolore eu fugiat.</p>
                     </div>
-                    <div className=" mt-3 mb-5 h-[2px] w-[380px] bg-slate-700"></div>
-                    <div className=" flex gap-5 items-center">
+                    <div className="mt-3 mb-5 h-[2px] w-[380px] bg-slate-700"></div>
+                    <div className="flex gap-5 items-center">
                         <div className="flex items-center gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
                                 <circle cx="11.4435" cy="11.5901" r="10.7742" fill="#FF5017" />
                                 <path d="M6.24678 7.54834C6.56616 7.54834 6.82419 7.80637 6.82419 8.12575V12.745H10.8661V9.85798C10.8661 9.5386 11.1241 9.28057 11.4435 9.28057H15.4854C16.4417 9.28057 17.2176 10.0565 17.2176 11.0128V15.0547C17.2176 15.3741 16.9596 15.6321 16.6402 15.6321C16.3208 15.6321 16.0628 15.3741 16.0628 15.0547V14.4773H12.0209H11.4435H6.82419V15.0547C6.82419 15.3741 6.56616 15.6321 6.24678 15.6321C5.9274 15.6321 5.66937 15.3741 5.66937 15.0547V8.12575C5.66937 7.80637 5.9274 7.54834 6.24678 7.54834ZM8.84513 12.1676C8.04758 12.1676 7.40161 11.5216 7.40161 10.7241C7.40161 9.92655 8.04758 9.28057 8.84513 9.28057C9.64268 9.28057 10.2887 9.92655 10.2887 10.7241C10.2887 11.5216 9.64268 12.1676 8.84513 12.1676Z" fill="#F8FAFA" />
                             </svg>
-                            <p className="text-lg font-semibold">Beds : Na</p>
+                            <p className="text-lg font-semibold">Beds: Na</p>
                         </div>
                         <div className="flex items-center gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
                                 <circle cx="11.7445" cy="11.5901" r="10.7742" fill="#FF5017" />
                                 <path d="M9.21825 8.76883C9.21825 8.65357 9.3114 8.55884 9.42824 8.55884C9.4835 8.55884 9.53718 8.58094 9.57666 8.62042L9.81191 8.85567C9.75507 8.99777 9.7235 9.15408 9.7235 9.31671C9.7235 9.63091 9.83718 9.91669 10.0266 10.1377C9.94296 10.283 9.96349 10.4709 10.0866 10.5956C10.2351 10.744 10.4751 10.744 10.6219 10.5956L12.2655 8.95356C12.4139 8.80515 12.4139 8.56515 12.2655 8.41832C12.1408 8.29358 11.9529 8.27464 11.8076 8.35832C11.5866 8.16727 11.3008 8.05359 10.9866 8.05359C10.824 8.05359 10.6677 8.08517 10.5256 8.14043L10.2903 7.90517C10.0614 7.67623 9.75034 7.54834 9.42824 7.54834C8.75405 7.54834 8.20775 8.09464 8.20775 8.76883V11.5903C7.92828 11.5903 7.7025 11.8161 7.7025 12.0956C7.7025 12.375 7.92828 12.6008 8.20775 12.6008H15.2812C15.5607 12.6008 15.7865 12.375 15.7865 12.0956C15.7865 11.8161 15.5607 11.5903 15.2812 11.5903H9.21825V8.76883ZM8.20775 13.1061V13.3587C8.20775 13.8071 8.40353 14.2113 8.713 14.4892V15.1271C8.713 15.4065 8.93878 15.6323 9.21825 15.6323C9.49771 15.6323 9.7235 15.4065 9.7235 15.1271V14.8745H13.7655V15.1271C13.7655 15.4065 13.9913 15.6323 14.2707 15.6323C14.5502 15.6323 14.776 15.4065 14.776 15.1271V14.4892C15.0855 14.2113 15.2812 13.8087 15.2812 13.3587V13.1061H8.20775Z" fill="#F8FAFA" />
                             </svg>
-                            <p className="text-lg font-semibold">Baths : 2</p>
+                            <p className="text-lg font-semibold">Baths: 2</p>
                         </div>
                         <div className="flex items-center gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="23" viewBox="0 0 22 23" fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="23" viewBox="0 0 22 23" fill="none">
                                 <ellipse cx="10.85" cy="11.6018" rx="10.4892" ry="10.7742" fill="#FF5017" />
                                 <path d="M9.24571 8.65967H12.4543C12.6951 8.65967 12.9094 8.81609 12.9891 9.0489L13.4512 10.4058H8.24878L8.71094 9.0489C8.79063 8.81609 9.00489 8.65967 9.24571 8.65967ZM7.64141 8.66512L7.01811 10.4931C6.6073 10.6677 6.31689 11.0842 6.31689 11.5698V13.0249C6.31689 13.456 6.54532 13.8325 6.88353 14.0325V15.062C6.88353 15.3839 7.13675 15.644 7.45017 15.644H8.01681C8.33023 15.644 8.58345 15.3839 8.58345 15.062V14.189H13.1166V15.062C13.1166 15.3839 13.3698 15.644 13.6832 15.644H14.2498C14.5633 15.644 14.8165 15.3839 14.8165 15.062V14.0325C15.1547 13.8307 15.3831 13.456 15.3831 13.0249V11.5698C15.3831 11.0842 15.0927 10.6677 14.6819 10.4931L14.0586 8.66512C13.8195 7.96487 13.1768 7.49561 12.4543 7.49561H9.24571C8.52324 7.49561 7.88046 7.96487 7.64141 8.66512ZM10 11.8608H11.7C11.8558 11.8608 11.9833 11.9918 11.9833 12.1519V12.7339C11.9833 12.8939 11.8558 13.0249 11.7 13.0249H10C9.84422 13.0249 9.71672 12.8939 9.71672 12.7339V12.1519C9.71672 11.9918 9.84422 11.8608 10 11.8608ZM7.16685 12.0063C7.16685 11.7644 7.35632 11.5698 7.59183 11.5698H8.15847C8.39398 11.5698 8.58345 11.7644 8.58345 12.0063C8.58345 12.2483 8.39398 12.4429 8.15847 12.4429H7.59183C7.35632 12.4429 7.16685 12.2483 7.16685 12.0063ZM13.5415 11.5698H14.1082C14.3437 11.5698 14.5332 11.7644 14.5332 12.0063C14.5332 12.2483 14.3437 12.4429 14.1082 12.4429H13.5415C13.306 12.4429 13.1166 12.2483 13.1166 12.0063C13.1166 11.7644 13.306 11.5698 13.5415 11.5698Z" fill="#F8FAFA" />
                             </svg>
-                            <p className="text-lg font-semibold">Parking : 1</p>
+                            <p className="text-lg font-semibold">Parking: 1</p>
                         </div>
                     </div>
-                    <div className=" mt-5 mb-5 h-[1px] w-[380px] bg-slate-700"></div>
+                    <div className="mt-5 mb-5 h-[1px] w-[380px] bg-slate-700"></div>
                     <div className="flex justify-between">
                         <p className="text-lg font-semibold text-[#FF5017]">View Details</p>
                         <div className="mr-8">
@@ -213,43 +210,42 @@ const Property = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-[420px]">
+                <div className="w-[420px] group transition-all duration-300 ease-in-out hover:bg-blue-500 hover:text-white">
                     <img className="" src={property5} alt="" />
                     <div className="flex justify-between mt-2">
-                        <h3 className="font-bold text-2xl text-[#FF5017]">Luxury Condo</h3>
+                        <h3 className="font-bold text-2xl text-[#FF5017]">Ready Resort for Sell</h3>
                         <div className="bg-[#FF5017] text-white w-[150px] text-lg font-semibold text-center">
                             <p>2,525.00$</p>
                         </div>
                     </div>
                     <div>
-                        <p className="text-lg font-semibold mr-5">Duis aute irure dolor in reprehenderit into volupjl
-                            tate velit esse cillum dolore eu fugiat.</p>
+                        <p className="text-lg font-semibold mr-5">Duis aute irure dolor in reprehenderit into volupjl tate velit esse cillum dolore eu fugiat.</p>
                     </div>
-                    <div className=" mt-3 mb-5 h-[2px] w-[380px] bg-slate-700"></div>
-                    <div className=" flex gap-5 items-center">
+                    <div className="mt-3 mb-5 h-[2px] w-[380px] bg-slate-700"></div>
+                    <div className="flex gap-5 items-center">
                         <div className="flex items-center gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
                                 <circle cx="11.4435" cy="11.5901" r="10.7742" fill="#FF5017" />
                                 <path d="M6.24678 7.54834C6.56616 7.54834 6.82419 7.80637 6.82419 8.12575V12.745H10.8661V9.85798C10.8661 9.5386 11.1241 9.28057 11.4435 9.28057H15.4854C16.4417 9.28057 17.2176 10.0565 17.2176 11.0128V15.0547C17.2176 15.3741 16.9596 15.6321 16.6402 15.6321C16.3208 15.6321 16.0628 15.3741 16.0628 15.0547V14.4773H12.0209H11.4435H6.82419V15.0547C6.82419 15.3741 6.56616 15.6321 6.24678 15.6321C5.9274 15.6321 5.66937 15.3741 5.66937 15.0547V8.12575C5.66937 7.80637 5.9274 7.54834 6.24678 7.54834ZM8.84513 12.1676C8.04758 12.1676 7.40161 11.5216 7.40161 10.7241C7.40161 9.92655 8.04758 9.28057 8.84513 9.28057C9.64268 9.28057 10.2887 9.92655 10.2887 10.7241C10.2887 11.5216 9.64268 12.1676 8.84513 12.1676Z" fill="#F8FAFA" />
                             </svg>
-                            <p className="text-lg font-semibold">Beds : Na</p>
+                            <p className="text-lg font-semibold">Beds: Na</p>
                         </div>
                         <div className="flex items-center gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
                                 <circle cx="11.7445" cy="11.5901" r="10.7742" fill="#FF5017" />
                                 <path d="M9.21825 8.76883C9.21825 8.65357 9.3114 8.55884 9.42824 8.55884C9.4835 8.55884 9.53718 8.58094 9.57666 8.62042L9.81191 8.85567C9.75507 8.99777 9.7235 9.15408 9.7235 9.31671C9.7235 9.63091 9.83718 9.91669 10.0266 10.1377C9.94296 10.283 9.96349 10.4709 10.0866 10.5956C10.2351 10.744 10.4751 10.744 10.6219 10.5956L12.2655 8.95356C12.4139 8.80515 12.4139 8.56515 12.2655 8.41832C12.1408 8.29358 11.9529 8.27464 11.8076 8.35832C11.5866 8.16727 11.3008 8.05359 10.9866 8.05359C10.824 8.05359 10.6677 8.08517 10.5256 8.14043L10.2903 7.90517C10.0614 7.67623 9.75034 7.54834 9.42824 7.54834C8.75405 7.54834 8.20775 8.09464 8.20775 8.76883V11.5903C7.92828 11.5903 7.7025 11.8161 7.7025 12.0956C7.7025 12.375 7.92828 12.6008 8.20775 12.6008H15.2812C15.5607 12.6008 15.7865 12.375 15.7865 12.0956C15.7865 11.8161 15.5607 11.5903 15.2812 11.5903H9.21825V8.76883ZM8.20775 13.1061V13.3587C8.20775 13.8071 8.40353 14.2113 8.713 14.4892V15.1271C8.713 15.4065 8.93878 15.6323 9.21825 15.6323C9.49771 15.6323 9.7235 15.4065 9.7235 15.1271V14.8745H13.7655V15.1271C13.7655 15.4065 13.9913 15.6323 14.2707 15.6323C14.5502 15.6323 14.776 15.4065 14.776 15.1271V14.4892C15.0855 14.2113 15.2812 13.8087 15.2812 13.3587V13.1061H8.20775Z" fill="#F8FAFA" />
                             </svg>
-                            <p className="text-lg font-semibold">Baths : 2</p>
+                            <p className="text-lg font-semibold">Baths: 2</p>
                         </div>
                         <div className="flex items-center gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="23" viewBox="0 0 22 23" fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="23" viewBox="0 0 22 23" fill="none">
                                 <ellipse cx="10.85" cy="11.6018" rx="10.4892" ry="10.7742" fill="#FF5017" />
                                 <path d="M9.24571 8.65967H12.4543C12.6951 8.65967 12.9094 8.81609 12.9891 9.0489L13.4512 10.4058H8.24878L8.71094 9.0489C8.79063 8.81609 9.00489 8.65967 9.24571 8.65967ZM7.64141 8.66512L7.01811 10.4931C6.6073 10.6677 6.31689 11.0842 6.31689 11.5698V13.0249C6.31689 13.456 6.54532 13.8325 6.88353 14.0325V15.062C6.88353 15.3839 7.13675 15.644 7.45017 15.644H8.01681C8.33023 15.644 8.58345 15.3839 8.58345 15.062V14.189H13.1166V15.062C13.1166 15.3839 13.3698 15.644 13.6832 15.644H14.2498C14.5633 15.644 14.8165 15.3839 14.8165 15.062V14.0325C15.1547 13.8307 15.3831 13.456 15.3831 13.0249V11.5698C15.3831 11.0842 15.0927 10.6677 14.6819 10.4931L14.0586 8.66512C13.8195 7.96487 13.1768 7.49561 12.4543 7.49561H9.24571C8.52324 7.49561 7.88046 7.96487 7.64141 8.66512ZM10 11.8608H11.7C11.8558 11.8608 11.9833 11.9918 11.9833 12.1519V12.7339C11.9833 12.8939 11.8558 13.0249 11.7 13.0249H10C9.84422 13.0249 9.71672 12.8939 9.71672 12.7339V12.1519C9.71672 11.9918 9.84422 11.8608 10 11.8608ZM7.16685 12.0063C7.16685 11.7644 7.35632 11.5698 7.59183 11.5698H8.15847C8.39398 11.5698 8.58345 11.7644 8.58345 12.0063C8.58345 12.2483 8.39398 12.4429 8.15847 12.4429H7.59183C7.35632 12.4429 7.16685 12.2483 7.16685 12.0063ZM13.5415 11.5698H14.1082C14.3437 11.5698 14.5332 11.7644 14.5332 12.0063C14.5332 12.2483 14.3437 12.4429 14.1082 12.4429H13.5415C13.306 12.4429 13.1166 12.2483 13.1166 12.0063C13.1166 11.7644 13.306 11.5698 13.5415 11.5698Z" fill="#F8FAFA" />
                             </svg>
-                            <p className="text-lg font-semibold">Parking : 1</p>
+                            <p className="text-lg font-semibold">Parking: 1</p>
                         </div>
                     </div>
-                    <div className=" mt-5 mb-5 h-[1px] w-[380px] bg-slate-700"></div>
+                    <div className="mt-5 mb-5 h-[1px] w-[380px] bg-slate-700"></div>
                     <div className="flex justify-between">
                         <p className="text-lg font-semibold text-[#FF5017]">View Details</p>
                         <div className="mr-8">
@@ -260,7 +256,7 @@ const Property = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-[420px]">
+                <div className="w-[420px] group transition-all duration-300 ease-in-out hover:bg-blue-500 hover:text-white">
                     <img className="" src={property6} alt="" />
                     <div className="flex justify-between mt-2">
                         <h3 className="font-bold text-2xl text-[#FF5017]">Ready Resort for Sell</h3>
@@ -269,34 +265,33 @@ const Property = () => {
                         </div>
                     </div>
                     <div>
-                        <p className="text-lg font-semibold mr-5">Duis aute irure dolor in reprehenderit into volupjl
-                            tate velit esse cillum dolore eu fugiat.</p>
+                        <p className="text-lg font-semibold mr-5">Duis aute irure dolor in reprehenderit into volupjl tate velit esse cillum dolore eu fugiat.</p>
                     </div>
-                    <div className=" mt-3 mb-5 h-[2px] w-[380px] bg-slate-700"></div>
-                    <div className=" flex gap-5 items-center">
+                    <div className="mt-3 mb-5 h-[2px] w-[380px] bg-slate-700"></div>
+                    <div className="flex gap-5 items-center">
                         <div className="flex items-center gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
                                 <circle cx="11.4435" cy="11.5901" r="10.7742" fill="#FF5017" />
                                 <path d="M6.24678 7.54834C6.56616 7.54834 6.82419 7.80637 6.82419 8.12575V12.745H10.8661V9.85798C10.8661 9.5386 11.1241 9.28057 11.4435 9.28057H15.4854C16.4417 9.28057 17.2176 10.0565 17.2176 11.0128V15.0547C17.2176 15.3741 16.9596 15.6321 16.6402 15.6321C16.3208 15.6321 16.0628 15.3741 16.0628 15.0547V14.4773H12.0209H11.4435H6.82419V15.0547C6.82419 15.3741 6.56616 15.6321 6.24678 15.6321C5.9274 15.6321 5.66937 15.3741 5.66937 15.0547V8.12575C5.66937 7.80637 5.9274 7.54834 6.24678 7.54834ZM8.84513 12.1676C8.04758 12.1676 7.40161 11.5216 7.40161 10.7241C7.40161 9.92655 8.04758 9.28057 8.84513 9.28057C9.64268 9.28057 10.2887 9.92655 10.2887 10.7241C10.2887 11.5216 9.64268 12.1676 8.84513 12.1676Z" fill="#F8FAFA" />
                             </svg>
-                            <p className="text-lg font-semibold">Beds : Na</p>
+                            <p className="text-lg font-semibold">Beds: Na</p>
                         </div>
                         <div className="flex items-center gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
                                 <circle cx="11.7445" cy="11.5901" r="10.7742" fill="#FF5017" />
                                 <path d="M9.21825 8.76883C9.21825 8.65357 9.3114 8.55884 9.42824 8.55884C9.4835 8.55884 9.53718 8.58094 9.57666 8.62042L9.81191 8.85567C9.75507 8.99777 9.7235 9.15408 9.7235 9.31671C9.7235 9.63091 9.83718 9.91669 10.0266 10.1377C9.94296 10.283 9.96349 10.4709 10.0866 10.5956C10.2351 10.744 10.4751 10.744 10.6219 10.5956L12.2655 8.95356C12.4139 8.80515 12.4139 8.56515 12.2655 8.41832C12.1408 8.29358 11.9529 8.27464 11.8076 8.35832C11.5866 8.16727 11.3008 8.05359 10.9866 8.05359C10.824 8.05359 10.6677 8.08517 10.5256 8.14043L10.2903 7.90517C10.0614 7.67623 9.75034 7.54834 9.42824 7.54834C8.75405 7.54834 8.20775 8.09464 8.20775 8.76883V11.5903C7.92828 11.5903 7.7025 11.8161 7.7025 12.0956C7.7025 12.375 7.92828 12.6008 8.20775 12.6008H15.2812C15.5607 12.6008 15.7865 12.375 15.7865 12.0956C15.7865 11.8161 15.5607 11.5903 15.2812 11.5903H9.21825V8.76883ZM8.20775 13.1061V13.3587C8.20775 13.8071 8.40353 14.2113 8.713 14.4892V15.1271C8.713 15.4065 8.93878 15.6323 9.21825 15.6323C9.49771 15.6323 9.7235 15.4065 9.7235 15.1271V14.8745H13.7655V15.1271C13.7655 15.4065 13.9913 15.6323 14.2707 15.6323C14.5502 15.6323 14.776 15.4065 14.776 15.1271V14.4892C15.0855 14.2113 15.2812 13.8087 15.2812 13.3587V13.1061H8.20775Z" fill="#F8FAFA" />
                             </svg>
-                            <p className="text-lg font-semibold">Baths : 2</p>
+                            <p className="text-lg font-semibold">Baths: 2</p>
                         </div>
                         <div className="flex items-center gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="23" viewBox="0 0 22 23" fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="23" viewBox="0 0 22 23" fill="none">
                                 <ellipse cx="10.85" cy="11.6018" rx="10.4892" ry="10.7742" fill="#FF5017" />
                                 <path d="M9.24571 8.65967H12.4543C12.6951 8.65967 12.9094 8.81609 12.9891 9.0489L13.4512 10.4058H8.24878L8.71094 9.0489C8.79063 8.81609 9.00489 8.65967 9.24571 8.65967ZM7.64141 8.66512L7.01811 10.4931C6.6073 10.6677 6.31689 11.0842 6.31689 11.5698V13.0249C6.31689 13.456 6.54532 13.8325 6.88353 14.0325V15.062C6.88353 15.3839 7.13675 15.644 7.45017 15.644H8.01681C8.33023 15.644 8.58345 15.3839 8.58345 15.062V14.189H13.1166V15.062C13.1166 15.3839 13.3698 15.644 13.6832 15.644H14.2498C14.5633 15.644 14.8165 15.3839 14.8165 15.062V14.0325C15.1547 13.8307 15.3831 13.456 15.3831 13.0249V11.5698C15.3831 11.0842 15.0927 10.6677 14.6819 10.4931L14.0586 8.66512C13.8195 7.96487 13.1768 7.49561 12.4543 7.49561H9.24571C8.52324 7.49561 7.88046 7.96487 7.64141 8.66512ZM10 11.8608H11.7C11.8558 11.8608 11.9833 11.9918 11.9833 12.1519V12.7339C11.9833 12.8939 11.8558 13.0249 11.7 13.0249H10C9.84422 13.0249 9.71672 12.8939 9.71672 12.7339V12.1519C9.71672 11.9918 9.84422 11.8608 10 11.8608ZM7.16685 12.0063C7.16685 11.7644 7.35632 11.5698 7.59183 11.5698H8.15847C8.39398 11.5698 8.58345 11.7644 8.58345 12.0063C8.58345 12.2483 8.39398 12.4429 8.15847 12.4429H7.59183C7.35632 12.4429 7.16685 12.2483 7.16685 12.0063ZM13.5415 11.5698H14.1082C14.3437 11.5698 14.5332 11.7644 14.5332 12.0063C14.5332 12.2483 14.3437 12.4429 14.1082 12.4429H13.5415C13.306 12.4429 13.1166 12.2483 13.1166 12.0063C13.1166 11.7644 13.306 11.5698 13.5415 11.5698Z" fill="#F8FAFA" />
                             </svg>
-                            <p className="text-lg font-semibold">Parking : 1</p>
+                            <p className="text-lg font-semibold">Parking: 1</p>
                         </div>
                     </div>
-                    <div className=" mt-5 mb-5 h-[1px] w-[380px] bg-slate-700"></div>
+                    <div className="mt-5 mb-5 h-[1px] w-[380px] bg-slate-700"></div>
                     <div className="flex justify-between">
                         <p className="text-lg font-semibold text-[#FF5017]">View Details</p>
                         <div className="mr-8">
@@ -307,13 +302,19 @@ const Property = () => {
                         </div>
                     </div>
                 </div>
+
+                
+                
+                
+                
+                
             </div>
             <div className="mt-28 flex justify-center">
-                       <button className="btn btn-lg btn-active text-white font-semibold bg-[#010F58] hover:bg-[#364075]">View More <svg xmlns="http://www.w3.org/2000/svg" width="30" height="26" viewBox="0 0 30 26" fill="none">
-                            <path d="M14.3897 24.1469C12.6931 24.4248 10.9559 24.3238 9.3029 23.8512C7.64987 23.3786 6.12188 22.5461 4.82849 21.4134C3.5351 20.2807 2.50836 18.8759 1.82187 17.2996C1.13538 15.7233 0.806157 14.0147 0.857806 12.2962C0.909455 10.5777 1.3407 8.89196 2.12061 7.35977C2.90052 5.82758 4.00979 4.48694 5.36887 3.43396C6.72795 2.38098 8.30317 1.64175 9.9816 1.26928C11.66 0.896805 13.4001 0.900316 15.077 1.27956" stroke="#F8FAFA" />
-                            <path d="M29.0026 13.3496C29.1979 13.1544 29.1979 12.8378 29.0026 12.6425L25.8206 9.46056C25.6254 9.2653 25.3088 9.2653 25.1135 9.46056C24.9183 9.65582 24.9183 9.97241 25.1135 10.1677L27.9419 12.9961L25.1135 15.8245C24.9183 16.0198 24.9183 16.3364 25.1135 16.5316C25.3088 16.7269 25.6254 16.7269 25.8206 16.5316L29.0026 13.3496ZM12.5557 13.4961L28.6491 13.4961L28.6491 12.4961L12.5557 12.4961L12.5557 13.4961Z" fill="#F8FAFA" />
-                        </svg></button>
-                       </div>
+                <button className="btn btn-lg btn-active text-white font-semibold bg-[#010F58] hover:bg-[#364075]">View More <svg xmlns="http://www.w3.org/2000/svg" width="30" height="26" viewBox="0 0 30 26" fill="none">
+                    <path d="M14.3897 24.1469C12.6931 24.4248 10.9559 24.3238 9.3029 23.8512C7.64987 23.3786 6.12188 22.5461 4.82849 21.4134C3.5351 20.2807 2.50836 18.8759 1.82187 17.2996C1.13538 15.7233 0.806157 14.0147 0.857806 12.2962C0.909455 10.5777 1.3407 8.89196 2.12061 7.35977C2.90052 5.82758 4.00979 4.48694 5.36887 3.43396C6.72795 2.38098 8.30317 1.64175 9.9816 1.26928C11.66 0.896805 13.4001 0.900316 15.077 1.27956" stroke="#F8FAFA" />
+                    <path d="M29.0026 13.3496C29.1979 13.1544 29.1979 12.8378 29.0026 12.6425L25.8206 9.46056C25.6254 9.2653 25.3088 9.2653 25.1135 9.46056C24.9183 9.65582 24.9183 9.97241 25.1135 10.1677L27.9419 12.9961L25.1135 15.8245C24.9183 16.0198 24.9183 16.3364 25.1135 16.5316C25.3088 16.7269 25.6254 16.7269 25.8206 16.5316L29.0026 13.3496ZM12.5557 13.4961L28.6491 13.4961L28.6491 12.4961L12.5557 12.4961L12.5557 13.4961Z" fill="#F8FAFA" />
+                </svg></button>
+            </div>
         </div>
     );
 };

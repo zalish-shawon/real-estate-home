@@ -41,19 +41,19 @@ const Hero = () => {
                                     <div className="flex items-center pt-3 gap-3">
                                         <div className="flex flex-col ml-6">
                                             <label className="mb-2" htmlFor="">Type</label>
-                                            <input type="text" placeholder="Property type" className="h-[40px] w-[180px] font-normal pl-4" />
+                                            <input type="text" placeholder="Property type" className="h-[40px] w-[180px] text-black font-normal pl-4" />
                                         </div>
                                         <div className="flex flex-col ml-6">
                                             <label className="mb-2" htmlFor="">Your location</label>
-                                            <input type="text" placeholder="Property type" className="h-[40px] w-[180px] font-normal pl-4" />
+                                            <input type="text" placeholder="Your location" className="h-[40px] w-[180px] text-black font-normal pl-4" />
                                         </div>
                                         <div className="flex flex-col ml-6">
                                             <label className="mb-2" htmlFor="">Bed/Bathrooms</label>
-                                            <input type="text" placeholder="Property type" className="h-[40px] w-[180px] font-normal pl-4" />
+                                            <input type="text" placeholder="Bed/Bathrooms" className="h-[40px] w-[180px] text-black font-normal pl-4" />
                                         </div>
                                         <div className="flex flex-col ml-6">
                                             <label className="mb-2" htmlFor="">Price</label>
-                                            <input type="text" placeholder="Property type" className="h-[40px] w-[180px] font-normal pl-4" />
+                                            <input type="text" placeholder="Price" className="h-[40px] w-[180px] text-black font-normal pl-4" />
                                         </div>
                                         <div className="flex h-[80px]">
                                             <input className="h-[80px] text-black ml-3" type="text" placeholder=" Search" />

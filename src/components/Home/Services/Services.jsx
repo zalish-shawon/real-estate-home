@@ -24,7 +24,7 @@ const Services = () => {
                     </div>
                 </div> 
             </div>
-            <div className="h-[416px] w-[1200px] mx-auto flex justify-center items-center gap-[100px] shadow-xl absolute left-[300px] top-[380px] bg-[#F8FAFA]">
+            <div data-aos="zoom-in" data-aos-duration="3000" className="h-[416px] w-[1200px] mx-auto flex justify-center items-center gap-[100px] shadow-xl absolute left-[300px] top-[380px] bg-[#F8FAFA]">
                         <div className="flex flex-col  items-center">
                         <img className="mt-5" src={circle} alt="" />
                         <img className="absolute " src={vec} alt="" />

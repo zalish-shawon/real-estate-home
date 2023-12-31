@@ -18,7 +18,8 @@ const Category = () => {
                     </svg>
                 </div>
             </div>
-            <div className="flex justify-center items-center gap-8">
+            <div data-aos="fade-up"
+     data-aos-duration="3000" className="flex justify-center items-center gap-8">
                 {/* Categories cards */}
                 <div className="flex items-center gap-4 mt-16">
                     <img className="w-[260px] h-[220px]" src="https://s3-alpha-sig.figma.com/img/69a0/caf0/b062c06a6b8142f73af7df6e4870fb06?Expires=1704672000&Signature=ldLYJKih6bwC1~6Jzeq01uagIwUrDkEfYcoO3YwWWJe5YqLwlAkdAxKZ~Td00UDDqe5-sytPgXGMQdDlDKpVCn0hvuBH7gR30mSP-vCv4NWaq2QGdqLk-nJ3LwLmHPeMJi9j7~zNQEZ87Bu2~YGAL92jEwGdxzjmavAlRKfupByYkmWAaTQV3rVmjMBAis5tvrWUMXUgNGk-K7pk2EF0WLfi15W-qZpiNHKqC7Ou0or-2rr58LEiC0A8IK4e0a5Um-RaFTKmgtQaS2-qG8S-1ADSQnaRL6zww2STgK2D68ihK9Bh9QfmLIb4MVHOfHZ3h~QR7VKAUc8O146PZCJ~rw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />

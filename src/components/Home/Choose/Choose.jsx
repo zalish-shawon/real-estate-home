@@ -2,8 +2,9 @@
 
 const Choose = () => {
     return (
-        <div className="max-w-[85%] mx-auto mb-20 mt-[300px] flex">
-            <div className="relative flex-1">
+        <div  className="max-w-[85%] mx-auto mb-20 mt-[300px] flex">
+            {/* Left Section */}
+            <div data-aos="zoom-in" data-aos-duration="3000" className="relative flex-1">
                 <img className="w-[495px] h-[480px]" src="https://s3-alpha-sig.figma.com/img/4637/0b26/30f40ec57259d6500176f8d6e2e76e96?Expires=1704672000&Signature=fYioxkMFMrS5s-a2gHaKn-o67WH58SC16lZrtHZ9Y26A4sGnB4pdefpYTvL88MXN3MXrIH6XimS7fZ~hYGYjwYTU4Zboh7temGqcSfKQimrBa2uuyuxsVwX8Kp3F0okzpOYtKKNiPhqhKlE8jEJRIqy8zdiWAVF51ppprvBkM9Z1BCgU9nGYhdexhmrYPetHkYDKX7raaU5K6vPZWvcUKMUHassZibvyuNKqatyiDue6PobLWpX13m0BDu~q1v7tAUmAPqS-dr5SMMwBzc-F0GZBkfLUhyjsmJ8s6B~TMzidxY0JsdqumclTZybtPsg2RC3wR3pVFy67mJGtYnl~BA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" />
                 <div className="absolute top-7 left-[400px]">
 
@@ -13,7 +14,8 @@ const Choose = () => {
                     <img className="w-[400px] h-[280px]" src="https://s3-alpha-sig.figma.com/img/3306/9680/ddcaec2f778027488964b1899ff6b557?Expires=1704672000&Signature=P6filTqWoNsIy67XqXxoXMlC32Th33NSZ76e6xAo8Nfxd0rzUNj1eEafayQfbe2He19D4WhkkpuGULc5X~PYK7FSZaev3auYTvwz8xXBQrkO0CvkEBooB2EdSzVU3prr4tssvPMiFJIajThAEKrm1JLjhukh12KZQD9-3-UZj5aU1XBphqMuJBGsUiv74Vqvx1nyvvLnU3GWb~LkNj4KuwsQYF~50phfjtXz1n7z53E6iaady4NKUxly2XzG4~xCWYS1JK4GIAzi3ADG~LxeugjhSZND3sHHhgH~VdQIMpBKJb5IrzrY6G5yE0WalrpwmA80PSzxzxkAfrGVOc0uKA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
                 </div>
             </div>
-            <div className="flex-1">
+            {/* Right Section */}
+            <div data-aos="zoom-in" data-aos-duration="3000" className="flex-1">
                 <div>
                     <h4 className='text-[#010F58] text-2xl font-bold'>FIND MORE CHOOSE</h4>
                     <svg xmlns="http://www.w3.org/2000/svg" width="150" height="8" viewBox="0 0 91 4" fill="none">

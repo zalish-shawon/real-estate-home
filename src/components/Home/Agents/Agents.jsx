@@ -21,7 +21,7 @@ const Agents = () => {
                 </div>
             </div>
 
-            <div className="image-container">
+            <div data-aos="zoom-in" data-aos-duration="3000" className="image-container">
                 <div className="flex justify-center items-center gap-7">
                     <div className="relative group">
                         <img src={agents2} alt="" className="agent-image transition-opacity duration-300 ease-in-out transform group-hover:opacity-70" />
@@ -56,7 +56,7 @@ const Agents = () => {
                             </div>
                         </div>
                     </div>
-                    {/* Repeat the above structure for other images */}
+                    
                 </div>
             </div>
 

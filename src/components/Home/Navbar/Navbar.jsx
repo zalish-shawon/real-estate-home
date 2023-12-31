@@ -24,7 +24,7 @@ const Navbar = () => {
                     </ul>
                     <div>
                         <button className='text-xl font-semibold'>Sign in</button>
-                        <button className="btn bg-[#FF5017] text-white hover:bg-[#be6548] ml-4 text-xl font-semibold">Primary</button>
+                        <button className="btn bg-[#FF5017] text-white hover:bg-[#be6548] ml-4 text-xl font-semibold">Add Property</button>
                     </div>
                 </div>
             </div>

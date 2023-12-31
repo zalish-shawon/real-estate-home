@@ -6,7 +6,7 @@ const About = () => {
         <div>
             <div className="max-w-[85%] mx-auto mt-20 flex justify-between items-center gap-5">
             {/* left section */}
-            <div className="relative flex-1">
+            <div data-aos="zoom-in" className="relative flex-1">
                 <svg xmlns="http://www.w3.org/2000/svg" width="473" height="812" viewBox="0 0 473 812" fill="none">
                     <path d="M473.006 0.517578H0.8396V811.842H322.962L473.006 0.517578Z" fill="#010F58" />
                 </svg>
@@ -586,7 +586,7 @@ const About = () => {
                     </svg>
                 </div>
             </div>
-            <div className='flex-1'>
+            <div data-aos="zoom-in" data-aos-duration="3000" className='flex-1'>
                 {/* About us section */}
                 <div>
                     <h4 className='text-[#010F58] text-2xl font-bold'>About Us</h4>
